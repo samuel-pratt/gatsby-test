@@ -1892,28 +1892,47 @@
       .style-module--Project--ebc93 .style-module--ProjectImage--52978 {
         border-radius: var(--border-radius);
       }
-      .style-module--Project--ebc93 {
-        flex-direction: row;
-        flex-shrink: 1;
-        justify-content: space-between;
-        margin-bottom: 8rem;
-        max-width: 62.5rem;
-        padding-right: 0;
+      @media (min-width: 400px) {
+        .style-module--Project--ebc93 {
+          max-width: 25rem;
+          padding-right: 5rem;
+        }
       }
-      .style-module--Project--ebc93 .style-module--Details--2ecfe {
-        margin-top: 0;
+      @media (min-width: 992px) {
+        .style-module--Project--ebc93 {
+          flex-direction: row;
+          flex-shrink: 1;
+          justify-content: space-between;
+          margin-bottom: 8rem;
+          max-width: 62.5rem;
+          padding-right: 0;
+        }
+        .style-module--Project--ebc93 .style-module--Details--2ecfe {
+          margin-top: 0;
+        }
+        .style-module--Project--ebc93
+          .style-module--ProjectImageWrapper--c39f7 {
+          height: 15rem;
+          width: 15rem;
+        }
       }
-      .style-module--Project--ebc93 .style-module--ProjectImageWrapper--c39f7 {
-        height: 15rem;
-        width: 15rem;
-      }
-
       .style-module--Projects--54233 {
+        display: flex;
         flex-direction: column;
-        margin-top: 0;
+        margin-top: -2rem;
       }
       .style-module--MoreProjects--83fbf {
-        margin-top: 0;
+        margin-top: 4rem;
+        text-align: center;
+      }
+      @media (min-width: 992px) {
+        .style-module--Projects--54233 {
+          flex-direction: column;
+          margin-top: 0;
+        }
+        .style-module--MoreProjects--83fbf {
+          margin-top: 0;
+        }
       }
     </style>
     <title data-react-helmet="true">Sam Pratt</title>
