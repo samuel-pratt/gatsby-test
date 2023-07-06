@@ -1856,16 +1856,10 @@ pre[class*="language-"] {
     width: 15rem;
   }
 }
-.style-module--Projects--54233 {
-  display: flex;
-  flex-direction: row;
-  margin-top: -2rem;
-}
 .style-module--MoreProjects--83fbf {
   margin-top: 4rem;
   text-align: center;
 }
-@media (min-width: 992px) {
   .style-module--Projects--54233 {
     flex-direction: column;
     margin-top: 0;
@@ -1873,4 +1867,3 @@ pre[class*="language-"] {
   .style-module--MoreProjects--83fbf {
     margin-top: 0;
   }
-}
